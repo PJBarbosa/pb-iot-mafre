@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: pb-iot-mafre
+  host: pb-iot-mafre
+  disk_quota: 1024M
+  services:
+  - pb-iot-mafre-cloudantNoSQLDB
+  - pb-iot-mafre-iotf-service
